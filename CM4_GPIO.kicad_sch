@@ -14938,6 +14938,54 @@
 		)
 		(uuid "0e37a1ae-bf06-4c70-ae4c-e7cee553b0b3")
 	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 114.3 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7baecef2-3796-4b1a-916b-6c5f07f96d37")
+	)
+	(hierarchical_label "RX"
+		(shape output)
+		(at 114.3 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "942a77b2-1d8f-4cf5-b959-ef91c0ee6f57")
+	)
+	(hierarchical_label "Int"
+		(shape output)
+		(at 114.3 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "993905a4-32e3-4b04-ba2d-4b2279f8e33b")
+	)
+	(hierarchical_label "Rst"
+		(shape output)
+		(at 114.3 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c5ee6a0-ad64-45e3-88fc-b95ca1c7e8a8")
+	)
 	(hierarchical_label "TV_OUT"
 		(shape input)
 		(at 55.88 177.8 180)
@@ -14997,6 +15045,18 @@
 			(justify right)
 		)
 		(uuid "d44cf594-638f-424d-936a-6e9ed7c314ce")
+	)
+	(hierarchical_label "Boot"
+		(shape output)
+		(at 114.3 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4aeb2b8-8976-4b67-ad5e-ed8e786296b2")
 	)
 	(hierarchical_label "CAM_GPIO"
 		(shape output)
