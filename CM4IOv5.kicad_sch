@@ -2206,44 +2206,6 @@
 		)
 	)
 	(sheet
-		(at 243.84 64.77)
-		(size 31.75 34.29)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "be571de0-64ad-4b5b-adc2-f7cb405f0103")
-		(property "Sheetname" "Sensors1"
-			(at 243.84 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 243.84 99.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 31.75 109.22)
 		(size 31.75 34.29)
 		(fields_autoplaced yes)
@@ -2272,6 +2234,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SCL" input
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a12a7f5a-b392-4190-87e1-25473a7fb533")
+		)
+		(pin "SDA" input
+			(at 63.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f654d8b-5d6c-41e6-a1dd-d43c36a8c9de")
+		)
+		(pin "Boot" input
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c3b20ee-c173-45f7-871f-c06570ecba98")
+		)
+		(pin "Int" input
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3b6f838-546b-4c8f-adc4-feda584988c4")
+		)
+		(pin "IMU_Rst" input
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2025677e-998e-4647-8cf6-048d0599bfc2")
 		)
 		(instances
 			(project "CM4IOv5"
