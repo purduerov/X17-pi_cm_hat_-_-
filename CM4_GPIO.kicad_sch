@@ -13230,7 +13230,7 @@
 		)
 		(uuid "03f16627-7ce3-4e9a-9706-778678e98c1c")
 	)
-	(label "GPIO12"
+	(label "DE"
 		(at 110.236 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14011,7 +14011,7 @@
 		)
 		(uuid "716698ac-ed16-401e-958b-a147596def51")
 	)
-	(label "GPIO16"
+	(label "RE"
 		(at 110.236 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14938,6 +14938,18 @@
 		)
 		(uuid "0e37a1ae-bf06-4c70-ae4c-e7cee553b0b3")
 	)
+	(hierarchical_label "RE"
+		(shape output)
+		(at 114.3 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "143f4202-52fb-4bc0-af56-2a2cb842ea38")
+	)
 	(hierarchical_label "Leak"
 		(shape output)
 		(at 114.3 67.31 0)
@@ -15105,6 +15117,18 @@
 			(justify right)
 		)
 		(uuid "ebcfdf36-110d-4f79-9de0-e4fcd76c1d6e")
+	)
+	(hierarchical_label "DE"
+		(shape output)
+		(at 114.3 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f795f66f-f0d2-4543-a2ab-05d864b6d03f")
 	)
 	(hierarchical_label "+3.3v"
 		(shape output)
