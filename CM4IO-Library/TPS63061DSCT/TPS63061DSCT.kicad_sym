@@ -1,0 +1,232 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TPS63061DSCT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.752 16.2953 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TPS63061DSCT" (id 1) (at -12.7152 -54.8209 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TPS63061DSCT:CONV_TPS63061DSCT" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Texas Instruments" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "2.5V to 12V input voltage, 93% Efficient, 2.25A Switch Current Limit, Buck-Boost Converter 10-WSON -40 to 85" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "WSON-10 Texas Instruments" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "1.78 USD" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendation" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TPS63061DSCT" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Good" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TPS63061DSCT_0_0"
+      (rectangle (start -12.7 -50.8) (end 12.7 15.24)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin input line (at -17.78 2.54 0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 0.0 180.0) (length 5.08)
+        (name "FB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 10.16 0) (length 5.08)
+        (name "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 10.16 180.0) (length 5.08)
+        (name "L2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 -7.62 0) (length 5.08)
+        (name "PSSYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 -2.54 0) (length 5.08)
+        (name "VAUX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 5.08 0) (length 5.08)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 -7.62 180.0) (length 5.08)
+        (name "PG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -48.26 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 17.78 5.08 180.0) (length 5.08)
+        (name "VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -12.7 180.0) (length 5.08)
+        (name "PGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -15.24 180.0) (length 5.08)
+        (name "PGND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -17.78 180.0) (length 5.08)
+        (name "PGND__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -20.32 180.0) (length 5.08)
+        (name "PGND__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -22.86 180.0) (length 5.08)
+        (name "PGND__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -25.4 180.0) (length 5.08)
+        (name "PGND__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -27.94 180.0) (length 5.08)
+        (name "PGND__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -30.48 180.0) (length 5.08)
+        (name "PGND__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -33.02 180.0) (length 5.08)
+        (name "PGND__8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -35.56 180.0) (length 5.08)
+        (name "PGND__9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -38.1 180.0) (length 5.08)
+        (name "PGND__10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -40.64 180.0) (length 5.08)
+        (name "PGND__11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -43.18 180.0) (length 5.08)
+        (name "PGND__12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -45.72 180.0) (length 5.08)
+        (name "PGND__13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

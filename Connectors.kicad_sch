@@ -110,6 +110,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599735a7-9b55-41cf-8fb7-de4d344164b9")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 50.8 57.15)
 		)
 		(stroke
@@ -150,6 +160,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc56b880-f33e-473f-a357-6476ddd34aeb")
+	)
+	(wire
+		(pts
 			(xy 44.45 44.45) (xy 50.8 44.45)
 		)
 		(stroke
@@ -168,6 +188,17 @@
 			(justify left bottom)
 		)
 		(uuid "05a5f79c-bad1-45c8-ab6d-16ec19b18783")
+	)
+	(label "A"
+		(at 46.99 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1634d381-24eb-46f5-a818-2e26577f82b4")
 	)
 	(label "LEAK"
 		(at 44.45 57.15 0)
@@ -213,6 +244,29 @@
 		)
 		(uuid "6d44fd34-306e-449d-86ef-02ae1e2e9d9e")
 	)
+	(label "B"
+		(at 44.45 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd4f60d-854c-4be1-98f1-5e72b2eefb9e")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 44.45 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47970285-634b-492b-886f-b1b5425efc09")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 44.45 50.8 180)
@@ -224,6 +278,18 @@
 			(justify right)
 		)
 		(uuid "63c11964-eae5-4a41-9184-4552bffca4f5")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 44.45 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65aef76c-696d-4fe9-8497-0a933d6265b7")
 	)
 	(hierarchical_label "LEAK"
 		(shape input)
@@ -272,6 +338,73 @@
 			(justify right)
 		)
 		(uuid "c79f1338-12ad-4070-86e8-908cb3606b6f")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16865436-8d34-47ed-9f38-2f81e71074bd")
+		(property "Reference" "TP16"
+			(at 55.88 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa4b7d3-219c-41fe-9d1f-9b951ab887fe")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/75579089-7949-4303-bf9d-35e30a6c418a"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -603,6 +736,73 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/75579089-7949-4303-bf9d-35e30a6c418a"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f62f3da0-0fbb-444a-8ff0-88ce1aa4cf1c")
+		(property "Reference" "TP15"
+			(at 55.88 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d207c355-08da-42be-98df-eef7396c4367")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/75579089-7949-4303-bf9d-35e30a6c418a"
+					(reference "TP15")
 					(unit 1)
 				)
 			)

@@ -884,6 +884,30 @@
 		)
 		(uuid "9aba6dab-6961-431b-8091-b4cc783184e0")
 	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 110.49 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a69b173b-6494-43bc-9506-991a8ae03e1c")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 110.49 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa4ed384-eaaf-4e83-9196-a841b00ddc4d")
+	)
 	(hierarchical_label "RE"
 		(shape input)
 		(at 171.45 83.82 0)

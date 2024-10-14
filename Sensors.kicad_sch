@@ -4072,6 +4072,16 @@
 		)
 		(uuid "5ff19d92-3d82-416f-8980-5b04fac930c3")
 	)
+	(text "LEAK Sensor\n"
+		(exclude_from_sim no)
+		(at 90.424 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64d6fbf7-3a34-462c-ad6a-05ce787b2e32")
+	)
 	(text "SENSOR PRESSURE HUMIDITY TEMP"
 		(exclude_from_sim no)
 		(at 262.128 103.124 0)
@@ -5152,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 26.67 45.7199 0)
 			(effects
 				(font
@@ -7091,7 +7101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 21.59 45.7199 0)
 			(effects
 				(font
