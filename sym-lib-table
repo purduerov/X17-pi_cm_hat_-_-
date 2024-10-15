@@ -21,4 +21,6 @@
   (lib (name "1301_9314_24")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/1301_9314_24/KiCADv6/2024-10-14_01-14-08.kicad_sym")(options "")(descr ""))
   (lib (name "KSZ9897RTXC")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/KSZ9897RTXC/KSZ9897RTXC.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9685PW_118")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/PCA9685PW_118/PCA9685PW_118.kicad_sym")(options "")(descr ""))
+  (lib (name "0816_1X1T_23_F")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/0816_1X1T_23_F/KiCADv6/2024-10-15_19-14-09.kicad_sym")(options "")(descr ""))
+  (lib (name "PD69104B1ILQ-TR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/PD69104B1ILQ-TR/KiCad/PD69104B1ILQ-TR.kicad_sym")(options "")(descr ""))
 )
