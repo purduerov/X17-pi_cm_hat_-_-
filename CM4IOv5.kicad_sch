@@ -7,8 +7,7 @@
 	(title_block
 		(title "Compute Module 4 IO Board - Top Level")
 		(rev "1")
-		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-		(comment 1 "www.raspberrypi.com")
+		(company "Sahil Mitra")
 	)
 	(lib_symbols
 		(symbol "1301_9314_24:1301.9314.24"
@@ -1199,7 +1198,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 53.34) (xy 240.03 53.34)
+			(xy 266.7 41.91) (xy 271.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23aedc06-90a6-4ece-8915-3ba50cb782f6")
+	)
+	(wire
+		(pts
+			(xy 44.45 31.75) (xy 49.53 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1349,6 +1358,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 38.1) (xy 271.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473fb82e-ac30-4197-9fb8-4d1a54e6372b")
+	)
+	(wire
+		(pts
 			(xy 66.04 80.01) (xy 74.93 80.01)
 		)
 		(stroke
@@ -1366,6 +1385,16 @@
 			(type default)
 		)
 		(uuid "5529362c-1ece-4394-b975-4032cc6dc6eb")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 274.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563d6428-8650-4b65-8fad-839d0a1bf2ee")
 	)
 	(wire
 		(pts
@@ -1419,6 +1448,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 45.72) (xy 271.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a4fc1c-0a34-4216-9a67-51bfa79c97c2")
+	)
+	(wire
+		(pts
 			(xy 83.82 97.79) (xy 88.9 97.79)
 		)
 		(stroke
@@ -1426,6 +1465,16 @@
 			(type default)
 		)
 		(uuid "64dd619c-cee6-49d8-9122-50af4624dc03")
+	)
+	(wire
+		(pts
+			(xy 168.91 151.13) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691dc005-2228-4250-83ca-550d79c32483")
 	)
 	(wire
 		(pts
@@ -1539,13 +1588,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 48.26) (xy 240.03 48.26)
+			(xy 44.45 26.67) (xy 49.53 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8983086f-2ff4-46f0-b559-19ce9e89514b")
+	)
+	(wire
+		(pts
+			(xy 266.7 34.29) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8df28a-b8b7-4cf1-88cb-1b1d31a70519")
 	)
 	(wire
 		(pts
@@ -1609,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 45.72) (xy 240.03 45.72)
+			(xy 44.45 24.13) (xy 49.53 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1709,6 +1768,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 49.53) (xy 271.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a3326c-53ac-4538-8abf-66fed40d323f")
+	)
+	(wire
+		(pts
 			(xy 132.08 81.28) (xy 119.38 81.28)
 		)
 		(stroke
@@ -1789,6 +1858,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 148.59) (xy 179.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07c1f0d-93b4-4e82-ba8a-cf0fc1c55648")
+	)
+	(wire
+		(pts
 			(xy 109.22 106.68) (xy 114.3 106.68)
 		)
 		(stroke
@@ -1849,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 50.8) (xy 240.03 50.8)
+			(xy 44.45 29.21) (xy 49.53 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1877,6 +1956,16 @@
 		)
 		(uuid "fbbf3870-faa0-44d9-aee8-d17004ccd4d4")
 	)
+	(wire
+		(pts
+			(xy 168.91 153.67) (xy 179.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff544c90-a8c8-4e28-a1cc-de3545add101")
+	)
 	(text "Reset"
 		(exclude_from_sim no)
 		(at 29.21 29.718 0)
@@ -1886,6 +1975,26 @@
 			)
 		)
 		(uuid "12876dba-d63d-4fbc-865f-965b94de98b5")
+	)
+	(text "Sensor Stuff"
+		(exclude_from_sim no)
+		(at 243.078 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14409cdd-9be8-4e81-b49a-ccd1888ac203")
+	)
+	(text "Envionmental Sensor"
+		(exclude_from_sim no)
+		(at 247.65 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fecd770-1063-40f9-909f-5a93c416ffde")
 	)
 	(text "Connector\n------\nPCIe x1"
 		(exclude_from_sim no)
@@ -1940,6 +2049,16 @@
 		)
 		(uuid "502505a7-0983-47e4-aa50-a4e3a4daafc7")
 	)
+	(text "-------"
+		(exclude_from_sim no)
+		(at 242.824 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5913d6f2-dc66-473f-8312-3178e1e6548f")
+	)
 	(text "Sensor Stuff"
 		(exclude_from_sim no)
 		(at 39.878 113.284 0)
@@ -1970,6 +2089,16 @@
 			(justify left bottom)
 		)
 		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 239.522 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b261cd55-fbf2-44dd-ae85-de1017a286b9")
 	)
 	(text "Connectors\n-------\nHDMI 0\nHDMI 1\nCSI 0\nCSI 1\nDSI 0\nDSI 1"
 		(exclude_from_sim no)
@@ -2115,7 +2244,7 @@
 		(uuid "3891ecd7-cee2-4065-959b-b1806a878c3b")
 	)
 	(label "5v_EXT_Stack"
-		(at 234.95 45.72 180)
+		(at 44.45 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,6 +2297,17 @@
 			(justify left bottom)
 		)
 		(uuid "40c8b364-0deb-450b-b208-dd1b543d9340")
+	)
+	(label "+3.3v"
+		(at 274.32 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45511196-d47c-4738-89a3-405a9ac33d7c")
 	)
 	(label "n_reset"
 		(at 179.07 138.43 0)
@@ -2279,6 +2419,17 @@
 		)
 		(uuid "632d987e-9e34-473f-bbc1-d8abd11bc68e")
 	)
+	(label "Int1"
+		(at 179.07 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64af9a42-d8f5-47e6-b780-432a81464d3a")
+	)
 	(label "SDA"
 		(at 118.11 173.99 0)
 		(fields_autoplaced yes)
@@ -2323,8 +2474,19 @@
 		)
 		(uuid "73e67262-e7f0-49f7-a671-569903fb27b1")
 	)
+	(label "Boot1"
+		(at 179.07 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "751cc4d5-d76f-4272-9073-73b599854e68")
+	)
 	(label "SCL"
-		(at 234.95 48.26 180)
+		(at 44.45 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2411,8 +2573,19 @@
 		)
 		(uuid "a06e8e78-f567-42e6-b645-013b1073ca31")
 	)
+	(label "Int1"
+		(at 271.78 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a10d7fad-7d08-4ab2-8c9c-28e559f8e215")
+	)
 	(label "SDA"
-		(at 234.95 50.8 180)
+		(at 44.45 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2455,8 +2628,19 @@
 		)
 		(uuid "a7d18796-ee11-4272-a6c6-58c3d710b9a7")
 	)
+	(label "SCL"
+		(at 271.78 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a84782f3-2280-4f5d-8340-d8b4400a4f08")
+	)
 	(label "n_reset"
-		(at 234.95 53.34 0)
+		(at 44.45 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2487,6 +2671,17 @@
 			(justify left bottom)
 		)
 		(uuid "b60c50d1-225e-415c-8712-7acb5e3dc8ea")
+	)
+	(label "IMU_Rst1"
+		(at 179.07 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b651221a-89f9-49c6-95ec-dcb859745a5b")
 	)
 	(label "nEXTRST"
 		(at 106.934 47.498 0)
@@ -2543,6 +2738,17 @@
 		)
 		(uuid "d3187258-46ca-4227-ab8c-b5601d5fb070")
 	)
+	(label "Boot1"
+		(at 271.78 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d943df20-f235-4ce0-8ba9-945ad5b0e128")
+	)
 	(label "A"
 		(at 233.68 115.57 0)
 		(fields_autoplaced yes)
@@ -2576,6 +2782,17 @@
 		)
 		(uuid "e0ff923f-0982-4c67-b7e6-12b856152d57")
 	)
+	(label "IMU_Rst1"
+		(at 271.78 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1d0b6b2-4e17-470c-86d9-cc8e2632e8a5")
+	)
 	(label "RX"
 		(at 233.68 105.41 0)
 		(fields_autoplaced yes)
@@ -2608,6 +2825,17 @@
 			(justify left bottom)
 		)
 		(uuid "e9ad1ba5-57ac-4f4a-b73b-90edbacd45bc")
+	)
+	(label "SDA"
+		(at 271.78 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebb16c77-be84-450a-ba21-1660c850c3db")
 	)
 	(label "+12v"
 		(at 219.71 62.23 0)
@@ -3552,7 +3780,7 @@
 	)
 	(symbol
 		(lib_id "HTST-110-X-X-D-RA:HTST-110-X-X-D-RA")
-		(at 252.73 55.88 0)
+		(at 62.23 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3561,7 +3789,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf479d2-2aee-4238-b35b-c45fb3ba02d2")
 		(property "Reference" "J15"
-			(at 252.73 38.1 0)
+			(at 62.23 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3797,7 @@
 			)
 		)
 		(property "Value" "HTST-110-X-X-D-RA"
-			(at 252.73 40.64 0)
+			(at 62.23 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" "HTST-110-X-X-D-RA:SAMTEC_HTST-110-X-X-D-RA"
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3833,7 @@
 			)
 		)
 		(property "PARTREV" "1-23-96"
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3843,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3853,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.27mm"
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3863,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 252.73 55.88 0)
+			(at 62.23 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +4087,7 @@
 	)
 	(sheet
 		(at 132.08 116.84)
-		(size 36.83 31.75)
+		(size 36.83 39.37)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3870,7 +4098,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cff706a")
 		(property "Sheetname" "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
-			(at 132.08 151.13 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +4107,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4_GPIO.kicad_sch"
-			(at 132.08 152.4 0)
+			(at 131.572 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,6 +4334,36 @@
 				(justify right)
 			)
 			(uuid "898ef5d9-9459-45a2-83fb-1423407dfb63")
+		)
+		(pin "Int1" output
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cc57a99-d35b-4cc1-a2ba-d62a3a860358")
+		)
+		(pin "Boot1" output
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cf91a07-916b-429e-abe3-2183575dc095")
+		)
+		(pin "IMU_Rst1" output
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e695fd3-f6eb-446f-b179-c9a77854351e")
 		)
 		(instances
 			(project "CM4IOv5"
@@ -4603,6 +4861,104 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 27.94)
+		(size 31.75 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a87ccf0-11e8-47ac-bb3e-80cc75978352")
+		(property "Sheetname" "Sensors1"
+			(at 234.95 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors1.kicad_sch"
+			(at 234.95 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 266.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "859ccd02-8894-4985-bd0d-ff4eec4d7d03")
+		)
+		(pin "SDA" input
+			(at 266.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a088ba84-4e91-4099-86de-b64d4453bf5f")
+		)
+		(pin "Boot" input
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d037ba20-bcfd-4e35-b46d-3a6d2773c90e")
+		)
+		(pin "Int" input
+			(at 266.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e65abdb5-80fb-4d0f-b87c-ea9239512753")
+		)
+		(pin "IMU_Rst" input
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95fb7e2b-4a2b-44d6-bd4d-77c6c4a498ee")
+		)
+		(pin "3.3v" input
+			(at 266.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bd89f80-3fb8-40a6-afbe-ba7c5a82180b")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
 				)
 			)
 		)

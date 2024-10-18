@@ -13648,7 +13648,7 @@
 		)
 		(uuid "3d219812-261f-4741-b119-3a36b9052a99")
 	)
-	(label "GPIO26"
+	(label "Boot1"
 		(at 32.766 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13923,7 +13923,7 @@
 		)
 		(uuid "684dd321-c877-439a-a4d1-bec26f55cf89")
 	)
-	(label "GPIO13"
+	(label "IMU_Rst1"
 		(at 32.766 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14143,7 +14143,7 @@
 		)
 		(uuid "811d06c8-e35a-4323-8e51-11882cc1e2ee")
 	)
-	(label "GPIO19"
+	(label "Int1"
 		(at 32.766 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15046,6 +15046,18 @@
 		)
 		(uuid "ba033dd1-a5e2-4136-b71b-d0a1cef6fc1f")
 	)
+	(hierarchical_label "Int1"
+		(shape output)
+		(at 25.4 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c776d987-75a4-4631-bba5-43fa81aa7bf2")
+	)
 	(hierarchical_label "SCL0"
 		(shape output)
 		(at 25.146 118.11 180)
@@ -15141,6 +15153,30 @@
 			(justify right)
 		)
 		(uuid "ebcfdf36-110d-4f79-9de0-e4fcd76c1d6e")
+	)
+	(hierarchical_label "Boot1"
+		(shape output)
+		(at 25.4 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f158fdbe-bcad-4609-a160-5b8eeac7f83e")
+	)
+	(hierarchical_label "IMU_Rst1"
+		(shape output)
+		(at 25.4 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f479af95-7a66-4405-88f5-a42ea3c1e0e9")
 	)
 	(hierarchical_label "DE"
 		(shape output)
