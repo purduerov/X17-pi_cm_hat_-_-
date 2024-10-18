@@ -8537,7 +8537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/brochures/magneticsolutions/br-mag-1g_2gbase-t-100w-poe-icms.pdf"
 			(at 293.37 66.04 0)
 			(effects
 				(font

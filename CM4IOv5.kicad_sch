@@ -1078,16 +1078,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 72.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "02165243-61a3-4857-84ba-71a77cb9a387")
-	)
-	(wire
-		(pts
 			(xy 121.92 144.78) (xy 132.08 144.78)
 		)
 		(stroke
@@ -1145,16 +1135,6 @@
 			(type default)
 		)
 		(uuid "0c149f6b-9ba7-4901-85c0-b027ad7dc1ba")
-	)
-	(wire
-		(pts
-			(xy 105.41 47.498) (xy 115.824 47.498)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0f3c9e3a-9c59-4881-b27a-d0e982b3ea8e")
 	)
 	(wire
 		(pts
@@ -1548,16 +1528,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 72.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "825c70b0-4860-42b7-97dc-86bfa46e06fd")
-	)
-	(wire
-		(pts
 			(xy 109.22 95.25) (xy 114.3 95.25)
 		)
 		(stroke
@@ -1625,16 +1595,6 @@
 			(type solid)
 		)
 		(uuid "909b030b-fa1a-4fe8-b1ee-422b4d9e23cf")
-	)
-	(wire
-		(pts
-			(xy 218.44 111.76) (xy 226.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "936e2ca6-11ae-4f42-9128-52bb329f3d21")
 	)
 	(wire
 		(pts
@@ -1725,16 +1685,6 @@
 			(type default)
 		)
 		(uuid "bb335da5-35c4-47c9-b58f-13889e9df0bc")
-	)
-	(wire
-		(pts
-			(xy 105.41 60.96) (xy 132.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "bb4f0314-c44c-4dda-b85c-537120eaae9a")
 	)
 	(wire
 		(pts
@@ -2007,17 +1957,6 @@
 		)
 		(uuid "2f3deced-880d-4075-a81b-95c62da5b94d")
 	)
-	(text "Connectors\n-------\nDC Barrel Jack\n4 pin power"
-		(exclude_from_sim no)
-		(at 193.04 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cfcbcc7-4f45-46ab-82a8-c414c7972161")
-	)
 	(text "Envionmental Sensor"
 		(exclude_from_sim no)
 		(at 44.45 119.888 0)
@@ -2027,17 +1966,6 @@
 			)
 		)
 		(uuid "48669d3a-3ae3-4afd-898a-96693cc678f7")
-	)
-	(text "Connectors\n-------\nDual USB\nmicroUSB"
-		(exclude_from_sim no)
-		(at 83.82 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4dc6088c-89a5-4db7-b3ae-db4b6396ad49")
 	)
 	(text "IMU"
 		(exclude_from_sim no)
@@ -2496,17 +2424,6 @@
 		)
 		(uuid "792085ce-af01-4d1a-85f3-a3adeb97c0cb")
 	)
-	(label "+3.3v"
-		(at 73.66 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e08f2a4-63d6-468b-bd8b-ec607077e023")
-	)
 	(label "TX"
 		(at 179.07 143.51 0)
 		(fields_autoplaced yes)
@@ -2550,17 +2467,6 @@
 			(justify left bottom)
 		)
 		(uuid "9031aa29-af65-4a13-999d-692adea36e31")
-	)
-	(label "+12v"
-		(at 220.98 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9702d639-3b1f-4825-8985-b32b9008503d")
 	)
 	(label "+3.3v"
 		(at 170.18 135.89 0)
@@ -2661,17 +2567,6 @@
 		)
 		(uuid "b4852e56-c9a9-40ff-a11c-1982cff62aba")
 	)
-	(label "+5v"
-		(at 73.66 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b60c50d1-225e-415c-8712-7acb5e3dc8ea")
-	)
 	(label "IMU_Rst1"
 		(at 179.07 153.67 0)
 		(fields_autoplaced yes)
@@ -2682,17 +2577,6 @@
 			(justify left bottom)
 		)
 		(uuid "b651221a-89f9-49c6-95ec-dcb859745a5b")
-	)
-	(label "nEXTRST"
-		(at 106.934 47.498 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6bcc3cf-50de-4a33-bc41-678825c1ecf2")
 	)
 	(label "Leak"
 		(at 233.68 113.03 0)
@@ -4587,152 +4471,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 190.5 104.14)
-		(size 27.94 20.32)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00005d31f999")
-		(property "Sheetname" "PSUs"
-			(at 190.5 103.5045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PSUs.kicad_sch"
-			(at 190.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+12v" output
-			(at 218.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6441b183-b8f2-458f-a23d-60e2b1f66dd6")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 81.28 39.878)
-		(size 24.13 28.702)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-00005e072e02")
-		(property "Sheetname" "USB2-HUB"
-			(at 81.28 39.2425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB2-HUB.kicad_sch"
-			(at 81.026 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB2_N" bidirectional
-			(at 105.41 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c01d25cd-f4bb-4ef3-b5ea-533a2a4ddb2b")
-		)
-		(pin "USB2_P" bidirectional
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9e1b837f-0d34-4a18-9644-9ee68f141f46")
-		)
-		(pin "+5v" input
-			(at 81.28 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "63ff1c93-3f96-4c33-b498-5dd8c33bccc0")
-		)
-		(pin "+3.3v" input
-			(at 81.28 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b88717bd-086f-46cd-9d3f-0396009d0996")
-		)
-		(pin "nEXTRST" input
-			(at 105.41 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "61fe293f-6808-4b7f-9340-9aaac7054a97")
-		)
-		(pin "USBOTG" output
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2f215f15-3d52-4c91-93e6-3ea03a95622f")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "2")
 				)
 			)
 		)

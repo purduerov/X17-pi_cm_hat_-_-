@@ -3944,6 +3944,16 @@
 		)
 		(uuid "fe5f5689-d096-43e1-aaee-5cd68bef3995")
 	)
+	(text "Buck/Boost Converter\n"
+		(exclude_from_sim no)
+		(at 206.248 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "355720d2-d217-48f3-bc3d-f7d7dbc2e39e")
+	)
 	(text "Power Monitor Bypass"
 		(exclude_from_sim no)
 		(at 53.594 141.986 0)
@@ -4551,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina260.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1729222745324&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fina260"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -5868,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ujc-hp-l-g-5-msmt-tr.pdf"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -6332,7 +6342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2117.pdf?ts=1701351126648&ref_url=https%253A%252F%252Fwww.google.com%252F"
 			(at 128.27 147.32 0)
 			(effects
 				(font
@@ -7003,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps63061"
 			(at 219.71 85.09 0)
 			(effects
 				(font
@@ -7676,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf"
 			(at 215.9 34.29 0)
 			(effects
 				(font

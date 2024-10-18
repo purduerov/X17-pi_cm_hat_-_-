@@ -1463,7 +1463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
 			(at 137.16 77.47 0)
 			(effects
 				(font
