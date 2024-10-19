@@ -1447,16 +1447,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 41.91) (xy 271.78 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23aedc06-90a6-4ece-8915-3ba50cb782f6")
-	)
-	(wire
-		(pts
 			(xy 44.45 31.75) (xy 49.53 31.75)
 		)
 		(stroke
@@ -1607,16 +1597,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 38.1) (xy 271.78 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "473fb82e-ac30-4197-9fb8-4d1a54e6372b")
-	)
-	(wire
-		(pts
 			(xy 36.83 43.18) (xy 27.94 43.18)
 		)
 		(stroke
@@ -1644,16 +1624,6 @@
 			(type default)
 		)
 		(uuid "5529362c-1ece-4394-b975-4032cc6dc6eb")
-	)
-	(wire
-		(pts
-			(xy 266.7 53.34) (xy 274.32 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563d6428-8650-4b65-8fad-839d0a1bf2ee")
 	)
 	(wire
 		(pts
@@ -1734,16 +1704,6 @@
 			(type solid)
 		)
 		(uuid "6199bec7-e7eb-4ae0-b9ec-c563e157d635")
-	)
-	(wire
-		(pts
-			(xy 266.7 45.72) (xy 271.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a4fc1c-0a34-4216-9a67-51bfa79c97c2")
 	)
 	(wire
 		(pts
@@ -1887,16 +1847,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 34.29) (xy 271.78 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b8df28a-b8b7-4cf1-88cb-1b1d31a70519")
-	)
-	(wire
-		(pts
 			(xy 228.6 148.59) (xy 233.68 148.59)
 		)
 		(stroke
@@ -2034,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "c83b3b17-453c-460f-a648-3b68a71d8595")
-	)
-	(wire
-		(pts
-			(xy 266.7 49.53) (xy 271.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a3326c-53ac-4538-8abf-66fed40d323f")
 	)
 	(wire
 		(pts
@@ -2265,26 +2205,6 @@
 		)
 		(uuid "12876dba-d63d-4fbc-865f-965b94de98b5")
 	)
-	(text "Sensor Stuff"
-		(exclude_from_sim no)
-		(at 243.078 32.004 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14409cdd-9be8-4e81-b49a-ccd1888ac203")
-	)
-	(text "Envionmental Sensor"
-		(exclude_from_sim no)
-		(at 247.65 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1fecd770-1063-40f9-909f-5a93c416ffde")
-	)
 	(text "Connector\n------\nPCIe x1"
 		(exclude_from_sim no)
 		(at 204.47 45.72 0)
@@ -2316,16 +2236,6 @@
 		)
 		(uuid "502505a7-0983-47e4-aa50-a4e3a4daafc7")
 	)
-	(text "-------"
-		(exclude_from_sim no)
-		(at 242.824 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5913d6f2-dc66-473f-8312-3178e1e6548f")
-	)
 	(text "Sensor Stuff"
 		(exclude_from_sim no)
 		(at 39.878 113.284 0)
@@ -2356,16 +2266,6 @@
 			(justify left bottom)
 		)
 		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
-	)
-	(text "IMU"
-		(exclude_from_sim no)
-		(at 239.522 35.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b261cd55-fbf2-44dd-ae85-de1017a286b9")
 	)
 	(text "Connectors\n-------\nHDMI 0\nHDMI 1\nCSI 0\nCSI 1\nDSI 0\nDSI 1"
 		(exclude_from_sim no)
@@ -2564,17 +2464,6 @@
 			(justify left bottom)
 		)
 		(uuid "40c8b364-0deb-450b-b208-dd1b543d9340")
-	)
-	(label "+3.3v"
-		(at 274.32 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45511196-d47c-4738-89a3-405a9ac33d7c")
 	)
 	(label "n_reset"
 		(at 179.07 138.43 0)
@@ -2818,17 +2707,6 @@
 		)
 		(uuid "a06e8e78-f567-42e6-b645-013b1073ca31")
 	)
-	(label "Int1"
-		(at 271.78 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a10d7fad-7d08-4ab2-8c9c-28e559f8e215")
-	)
 	(label "SDA"
 		(at 44.45 29.21 180)
 		(fields_autoplaced yes)
@@ -2872,17 +2750,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7d18796-ee11-4272-a6c6-58c3d710b9a7")
-	)
-	(label "SCL"
-		(at 271.78 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a84782f3-2280-4f5d-8340-d8b4400a4f08")
 	)
 	(label "n_reset"
 		(at 44.45 31.75 0)
@@ -2961,17 +2828,6 @@
 		)
 		(uuid "d3187258-46ca-4227-ab8c-b5601d5fb070")
 	)
-	(label "Boot1"
-		(at 271.78 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d943df20-f235-4ce0-8ba9-945ad5b0e128")
-	)
 	(label "A"
 		(at 233.68 115.57 0)
 		(fields_autoplaced yes)
@@ -3005,17 +2861,6 @@
 		)
 		(uuid "e0ff923f-0982-4c67-b7e6-12b856152d57")
 	)
-	(label "IMU_Rst1"
-		(at 271.78 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1d0b6b2-4e17-470c-86d9-cc8e2632e8a5")
-	)
 	(label "RX"
 		(at 233.68 105.41 0)
 		(fields_autoplaced yes)
@@ -3048,17 +2893,6 @@
 			(justify left bottom)
 		)
 		(uuid "e9ad1ba5-57ac-4f4a-b73b-90edbacd45bc")
-	)
-	(label "SDA"
-		(at 271.78 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebb16c77-be84-450a-ba21-1660c850c3db")
 	)
 	(label "+12v"
 		(at 219.71 62.23 0)
@@ -5078,104 +4912,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 234.95 27.94)
-		(size 31.75 34.29)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2a87ccf0-11e8-47ac-bb3e-80cc75978352")
-		(property "Sheetname" "Sensors1"
-			(at 234.95 27.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensors1.kicad_sch"
-			(at 234.95 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SCL" input
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "859ccd02-8894-4985-bd0d-ff4eec4d7d03")
-		)
-		(pin "SDA" input
-			(at 266.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a088ba84-4e91-4099-86de-b64d4453bf5f")
-		)
-		(pin "Boot" input
-			(at 266.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d037ba20-bcfd-4e35-b46d-3a6d2773c90e")
-		)
-		(pin "Int" input
-			(at 266.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e65abdb5-80fb-4d0f-b87c-ea9239512753")
-		)
-		(pin "IMU_Rst" input
-			(at 266.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "95fb7e2b-4a2b-44d6-bd4d-77c6c4a498ee")
-		)
-		(pin "3.3v" input
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3bd89f80-3fb8-40a6-afbe-ba7c5a82180b")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
 				)
 			)
 		)

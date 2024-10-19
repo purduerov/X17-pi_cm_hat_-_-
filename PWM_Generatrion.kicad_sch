@@ -1146,6 +1146,17 @@
 		)
 		(uuid "e1520f8f-cc91-400a-9179-ee8b4521880f")
 	)
+	(label "PWM Generator"
+		(at 132.08 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0398a3a7-f719-477a-831a-17609573642f")
+	)
 	(label "3.3v"
 		(at 111.76 59.69 0)
 		(fields_autoplaced yes)
@@ -1178,6 +1189,17 @@
 			(justify left bottom)
 		)
 		(uuid "3a95d9f2-5ae0-4ae7-8e47-526484dc7cd8")
+	)
+	(label "Backplane connector"
+		(at 208.28 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "934dd438-16b7-4582-bee3-32944d2c2fb1")
 	)
 	(label "SDA"
 		(at 161.29 59.69 0)
