@@ -30,4 +30,6 @@
   (lib (name "IPT1-105-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/IPT1-105-01-L-D/IPT1-105-01-L-D.kicad_sym")(options "")(descr ""))
   (lib (name "TPS72101DBVR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/TPS72101DBVR/TPS72101DBVR.kicad_sym")(options "")(descr ""))
   (lib (name "MIC5219-2.5YMM-TR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/MIC5219_2_5YMM_TR/KiCADv6/2024-10-18_02-36-02.kicad_sym")(options "")(descr ""))
+  (lib (name "DA2304-ALD")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DA2304-ALD/DA2304-ALD.kicad_sym")(options "")(descr ""))
+  (lib (name "LP2985A-50DBVR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/LP2985A_50DBVR/LP2985A-50DBVR.kicad_sym")(options "")(descr ""))
 )
