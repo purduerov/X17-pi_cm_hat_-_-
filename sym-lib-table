@@ -32,4 +32,5 @@
   (lib (name "MIC5219-2.5YMM-TR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/MIC5219_2_5YMM_TR/KiCADv6/2024-10-18_02-36-02.kicad_sym")(options "")(descr ""))
   (lib (name "DA2304-ALD")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DA2304-ALD/DA2304-ALD.kicad_sym")(options "")(descr ""))
   (lib (name "LP2985A-50DBVR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/LP2985A_50DBVR/LP2985A-50DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "ISO3086T")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ul_ISO3086TDW/KiCADv6/2024-10-26_17-12-40.kicad_sym")(options "")(descr ""))
 )
