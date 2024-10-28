@@ -970,10 +970,6 @@
       "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
-      "00000000-0000-0000-0000-00005ed4bb5b",
-      "PCIe-connector"
-    ],
-    [
       "6cbc9825-ddcf-4552-a506-0d903a9900c6",
       "USBhub"
     ],
@@ -992,10 +988,6 @@
     [
       "75579089-7949-4303-bf9d-35e30a6c418a",
       "Connectors"
-    ],
-    [
-      "34e173dc-63e8-46a7-a290-a6dacd790c17",
-      "ethernet"
     ],
     [
       "dbf465c7-7de0-4b8a-860d-b014ecfe2e4f",
