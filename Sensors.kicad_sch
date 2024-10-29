@@ -2625,16 +2625,16 @@
 		(uuid "097b3e25-4a76-4d75-8827-2ded39ed6a6a")
 	)
 	(no_connect
+		(at 217.17 40.64)
+		(uuid "0b102833-c8c1-4e98-8aae-a9fa2b97d9ae")
+	)
+	(no_connect
 		(at 31.75 99.06)
 		(uuid "332c10b5-a471-486d-8533-528c46958460")
 	)
 	(no_connect
 		(at 95.25 40.64)
 		(uuid "37322b1d-4393-43d2-89c6-cd1d857e04ce")
-	)
-	(no_connect
-		(at 156.21 66.04)
-		(uuid "929c5dad-68f9-40b6-b87d-f62e4789aa1b")
 	)
 	(no_connect
 		(at 156.21 60.96)
@@ -5034,7 +5034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4ca12f-0dce-4369-b687-ba1fe85cc367")
-		(property "Reference" "J?"
+		(property "Reference" "J18"
 			(at 99.06 166.3699 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d818c5c4-22e1-4750-8cc8-fe8a67dac1ec"
-					(reference "J?")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25342e28-3e06-4f6b-9d1f-4de56e4e4169")
-		(property "Reference" "J?"
+		(property "Reference" "J17"
 			(at 99.06 152.3999 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d818c5c4-22e1-4750-8cc8-fe8a67dac1ec"
-					(reference "J?")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9be6a5b-73f3-4e68-ba01-a26e3f471f79")
-		(property "Reference" "J?"
+		(property "Reference" "J19"
 			(at 99.06 180.3399 0)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d818c5c4-22e1-4750-8cc8-fe8a67dac1ec"
-					(reference "J?")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -7958,7 +7958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8717748-32d1-4bdc-bc4e-665cf89c6653")
-		(property "Reference" "J?"
+		(property "Reference" "J16"
 			(at 99.06 138.4299 0)
 			(effects
 				(font
@@ -8014,7 +8014,7 @@
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d818c5c4-22e1-4750-8cc8-fe8a67dac1ec"
-					(reference "J?")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00f1313-bb96-4fd6-b618-38e258206019")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 53.34 147.3199 0)
 			(effects
 				(font
@@ -8319,7 +8319,7 @@
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d818c5c4-22e1-4750-8cc8-fe8a67dac1ec"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
