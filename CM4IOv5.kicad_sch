@@ -1377,6 +1377,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 49.53) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112fc451-0857-4ab0-ad1f-7e0ab72e87e8")
+	)
+	(wire
+		(pts
 			(xy 193.04 124.46) (xy 193.04 130.81)
 		)
 		(stroke
@@ -1414,6 +1424,16 @@
 			(type default)
 		)
 		(uuid "2a29da7d-797d-4ba4-a897-ca3979987e91")
+	)
+	(wire
+		(pts
+			(xy 168.91 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a81aaa-b983-4252-b330-55cbd49bc6a8")
 	)
 	(wire
 		(pts
@@ -1487,13 +1507,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 132.08 49.53)
+			(xy 218.44 154.94) (xy 224.79 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43a75479-4176-4aa0-b938-e51a6d00cf32")
+		(uuid "468a8ca6-1b2e-40ff-afab-afaa01da6bc1")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514daeda-348d-4029-a4e0-8010be5b050a")
 	)
 	(wire
 		(pts
@@ -1577,16 +1607,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 148.59) (xy 179.07 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80de8d28-2d85-4122-9f80-e83adf10c025")
-	)
-	(wire
-		(pts
 			(xy 220.98 127) (xy 220.98 124.46)
 		)
 		(stroke
@@ -1614,16 +1634,6 @@
 			(type default)
 		)
 		(uuid "838237ad-a49c-4eee-b830-ec0069271bde")
-	)
-	(wire
-		(pts
-			(xy 151.13 86.36) (xy 151.13 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8638b4a4-7a22-40e0-ad7a-0ac1a1f115a6")
 	)
 	(wire
 		(pts
@@ -1684,6 +1694,26 @@
 			(type default)
 		)
 		(uuid "abac7217-de0d-49db-bdb8-e6172e858f6a")
+	)
+	(wire
+		(pts
+			(xy 218.44 152.4) (xy 224.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b14d16-091c-4e5c-8236-10a2f9947453")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0aad3c-0d48-4622-ba29-aab9311f0665")
 	)
 	(wire
 		(pts
@@ -1797,6 +1827,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 149.86) (xy 224.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46a93c3-5408-46fb-a2c7-0cf8bb0832b6")
+	)
+	(wire
+		(pts
 			(xy 83.82 101.6) (xy 77.47 101.6)
 		)
 		(stroke
@@ -1857,7 +1897,7 @@
 	)
 	(text "PWM Generation\n"
 		(exclude_from_sim no)
-		(at 202.438 147.066 0)
+		(at 207.264 148.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,7 +1967,7 @@
 	)
 	(text "-------"
 		(exclude_from_sim no)
-		(at 200.152 148.336 0)
+		(at 204.978 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1957,9 +1997,9 @@
 		)
 		(uuid "db83d0af-e085-4050-8496-fa2ebdecbd62")
 	)
-	(text "Backplane Connector\n(PWM)"
+	(text "Backplane \nConnector(PWM)"
 		(exclude_from_sim no)
-		(at 204.978 153.416 0)
+		(at 207.518 154.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1969,7 +2009,7 @@
 	)
 	(text "PWM Generator\n"
 		(exclude_from_sim no)
-		(at 202.184 150.368 0)
+		(at 207.01 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,17 +2158,6 @@
 		)
 		(uuid "40c8b364-0deb-450b-b208-dd1b543d9340")
 	)
-	(label "n_reset"
-		(at 179.07 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45fccf22-3cbb-44ac-95c1-d5dfc24993a9")
-	)
 	(label "DE"
 		(at 119.38 102.87 0)
 		(fields_autoplaced yes)
@@ -2195,6 +2224,17 @@
 		)
 		(uuid "731f282b-d126-419a-97d7-fece37e67700")
 	)
+	(label "A"
+		(at 224.79 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a9232ac-e924-43e4-8adf-8ab811626827")
+	)
 	(label "B"
 		(at 83.82 96.52 180)
 		(fields_autoplaced yes)
@@ -2228,6 +2268,17 @@
 		)
 		(uuid "9031aa29-af65-4a13-999d-692adea36e31")
 	)
+	(label "+5v"
+		(at 224.79 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b5a21c1-23a7-4c5c-bd9b-72b13d152081")
+	)
 	(label "SCL"
 		(at 83.82 104.14 180)
 		(fields_autoplaced yes)
@@ -2249,6 +2300,28 @@
 			(justify right bottom)
 		)
 		(uuid "ba5c18a8-5c61-4bf0-ab78-4496b6d44013")
+	)
+	(label "B"
+		(at 224.79 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c591c0f0-5a54-4c64-89bd-30adc2313be1")
+	)
+	(label "XRSTJ"
+		(at 119.38 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c59fc05e-ebd3-4ca5-b3dd-696324b56eaa")
 	)
 	(label "SCL"
 		(at 125.73 123.19 0)
@@ -2337,6 +2410,17 @@
 			(justify left bottom)
 		)
 		(uuid "e9661daf-6999-4ac5-b03f-0ec0f4ca5fcb")
+	)
+	(label "XRSTJ"
+		(at 125.73 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9da1afc-bc99-4f0b-8b0f-5ae8b4492927")
 	)
 	(label "SDA"
 		(at 129.54 120.65 180)
@@ -3717,16 +3801,6 @@
 			)
 			(uuid "5038e144-5119-49db-b6cf-f7c345f1cf03")
 		)
-		(pin "CAM_GPIO" output
-			(at 151.13 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac264c30-3e9a-4be2-b97a-9949b68bd497")
-		)
 		(pin "SCL0" output
 			(at 132.08 123.19 180)
 			(effects
@@ -3898,7 +3972,7 @@
 			(uuid "186d1e12-5b1c-412a-ac48-b292a309fcb1")
 		)
 		(pin "n_reset" output
-			(at 168.91 148.59 0)
+			(at 168.91 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,6 +4040,16 @@
 				(justify left)
 			)
 			(uuid "87733033-2c65-4743-bc85-7953359bfeb1")
+		)
+		(pin "XRSTJ" output
+			(at 132.08 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17c457fc-309c-4081-a466-7d47c665a4f7")
 		)
 		(instances
 			(project "CM4IOv5"
@@ -4045,16 +4129,6 @@
 			)
 			(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
 		)
-		(pin "CAM_GPIO" input
-			(at 151.13 86.36 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "181abe7a-f941-42b6-bd46-aaa3131f90fb")
-		)
 		(pin "+5v" input
 			(at 132.08 45.72 180)
 			(effects
@@ -4064,16 +4138,6 @@
 				(justify left)
 			)
 			(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
-		)
-		(pin "+3.3v" input
-			(at 132.08 49.53 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "29e78086-2175-405e-9ba3-c48766d2f50c")
 		)
 		(pin "GPIO_VREF" input
 			(at 147.32 86.36 270)
@@ -4172,6 +4236,16 @@
 				(justify right)
 			)
 			(uuid "3a059ebb-c099-4333-83ae-c2b78db54951")
+		)
+		(pin "XRSTJ" input
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8569c344-e42b-49f9-b6d0-96fab1c6ce0f")
 		)
 		(instances
 			(project "CM4IOv5"
@@ -4712,6 +4786,96 @@
 				(justify right)
 			)
 			(uuid "c6769420-5c6f-4b6b-b9ed-13537ab9f86a")
+		)
+		(pin "5v" input
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d667520f-800a-47de-ba55-452a4e45c440")
+		)
+		(pin "A" input
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "beaf02c5-c6dd-4ead-844f-c94bebe3b7ef")
+		)
+		(pin "SCLK" input
+			(at 193.04 156.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71b002b4-3aca-4fdc-95a6-4aea336e643e")
+		)
+		(pin "B" input
+			(at 218.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "141e3ab7-987d-4df4-8c05-9a36c1d305f0")
+		)
+		(pin "NOSI" input
+			(at 193.04 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f06c0da-c83e-499c-bd81-3a4cea4bc022")
+		)
+		(pin "Telemetry" input
+			(at 193.04 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7eb47e64-4757-45bf-a99f-ed4329cccb5e")
+		)
+		(pin "CS" input
+			(at 193.04 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "999167c0-d871-4dfa-83a2-6cdf86a36ee1")
+		)
+		(pin "ConRst" input
+			(at 193.04 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0a25f92-7ec4-4862-8281-0c1da2c36052")
+		)
+		(pin "NISO" input
+			(at 193.04 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ba433d9-da0c-4eb4-ba25-bc7cedb00958")
 		)
 		(instances
 			(project "CM4IOv5"
