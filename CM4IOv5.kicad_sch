@@ -4966,6 +4966,16 @@
 			)
 			(uuid "87988c77-50e5-4c01-a343-226a0a3bf1c1")
 		)
+		(pin "TB_EN" input
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b383aa0f-a2f2-418e-87b2-bb88d422d0e1")
+		)
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
