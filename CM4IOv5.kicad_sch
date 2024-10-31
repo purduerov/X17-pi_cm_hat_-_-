@@ -1877,16 +1877,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 121.92 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112fc451-0857-4ab0-ad1f-7e0ab72e87e8")
-	)
-	(wire
-		(pts
 			(xy 193.04 124.46) (xy 193.04 130.81)
 		)
 		(stroke
@@ -1924,16 +1914,6 @@
 			(type default)
 		)
 		(uuid "3105a026-8148-4dca-a3b7-ec7b67e40c5b")
-	)
-	(wire
-		(pts
-			(xy 147.32 86.36) (xy 147.32 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f618aa-e5f6-4a14-a682-34c39e9296c8")
 	)
 	(wire
 		(pts
@@ -1984,16 +1964,6 @@
 			(type default)
 		)
 		(uuid "3f4011e9-4eb5-459e-9385-2723c7366542")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.79) (xy 119.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44057eef-2bcd-4f2d-b1a4-349196ad8697")
 	)
 	(wire
 		(pts
@@ -2067,16 +2037,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 132.08 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cfa56b4-61e8-40cc-82d2-adc7b9b5806f")
-	)
-	(wire
-		(pts
 			(xy 233.68 52.07) (xy 233.68 53.34)
 		)
 		(stroke
@@ -2114,16 +2074,6 @@
 			(type default)
 		)
 		(uuid "7ba360be-6229-414b-96b7-51cd877cea6a")
-	)
-	(wire
-		(pts
-			(xy 114.3 148.59) (xy 132.08 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbfd813-4a50-473e-bdae-f2c3d2617400")
 	)
 	(wire
 		(pts
@@ -2287,26 +2237,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 227.33 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f7273e-cf47-4b55-ab8c-8c285da5a44a")
-	)
-	(wire
-		(pts
-			(xy 168.91 95.25) (xy 193.04 95.25)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "cbc539d2-6a10-4052-9b7a-f10326dcac67")
-	)
-	(wire
-		(pts
 			(xy 113.03 55.88) (xy 132.08 55.88)
 		)
 		(stroke
@@ -2374,16 +2304,6 @@
 			(type default)
 		)
 		(uuid "efa47019-a353-475d-8610-d1fdf8181d9b")
-	)
-	(wire
-		(pts
-			(xy 218.44 142.24) (xy 224.79 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c45a0b-7241-41f2-9a9d-08498a142309")
 	)
 	(wire
 		(pts
@@ -2577,17 +2497,6 @@
 		)
 		(uuid "fea88d07-740d-4482-b8ec-03b13716fbc9")
 	)
-	(label "+3.3v"
-		(at 219.71 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "056d14d4-d7df-42d1-91c2-1410ba000896")
-	)
 	(label "SCL"
 		(at 229.87 97.79 0)
 		(fields_autoplaced yes)
@@ -2643,17 +2552,6 @@
 		)
 		(uuid "16ca515d-a7ed-4d28-8f4a-bf9c92cf1295")
 	)
-	(label "+3.3v"
-		(at 227.33 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19ace5db-cbd3-4c48-9d0f-5f1050012bda")
-	)
 	(label "SCL"
 		(at 219.71 144.78 0)
 		(fields_autoplaced yes)
@@ -2664,28 +2562,6 @@
 			(justify left bottom)
 		)
 		(uuid "2179b740-4731-416f-87ab-f716584919e6")
-	)
-	(label "+3.3v"
-		(at 121.92 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "267fa0fe-f9b7-4eb4-b50d-9269cfbfbd5d")
-	)
-	(label "+5v"
-		(at 121.92 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33191697-0c47-4dd8-8ce2-bf01bebe0b01")
 	)
 	(label "SDA"
 		(at 83.82 106.68 180)
@@ -2752,17 +2628,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c1ba847-6b52-4a3f-80d7-09b61cb29dbc")
-	)
-	(label "+5v"
-		(at 171.45 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55992e35-fe7b-468a-9b7a-1e4dc931b904")
 	)
 	(label "NRST2"
 		(at 246.38 59.69 180)
@@ -2918,17 +2783,6 @@
 		)
 		(uuid "d0062c35-6d56-4642-b4a2-c033b9c61687")
 	)
-	(label "+3.3v"
-		(at 125.73 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0e50dc4-8a35-42e1-8a80-3efc5935a289")
-	)
 	(label "A"
 		(at 83.82 99.06 180)
 		(fields_autoplaced yes)
@@ -3005,17 +2859,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1b75e7a-e2c5-4707-8ebb-efceff128888")
-	)
-	(label "+3.3v"
-		(at 119.38 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f242950d-6f83-43df-8364-bad774548fb6")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -4447,26 +4290,6 @@
 			)
 			(uuid "a3e4f0ae-9f86-49e9-b386-ed8b42e012fb")
 		)
-		(pin "+5v" input
-			(at 168.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a690fc6c-55d9-47e6-b533-faa4b67e20f3")
-		)
-		(pin "+3.3v" output
-			(at 132.08 148.59 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c144caa5-b0d4-4cef-840a-d4ad178a2102")
-		)
 		(pin "nEXTRST" output
 			(at 168.91 124.46 0)
 			(effects
@@ -4486,16 +4309,6 @@
 				(justify right)
 			)
 			(uuid "5fc27c35-3e1c-4f96-817c-93b5570858a6")
-		)
-		(pin "GPIO_VREF" output
-			(at 147.32 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6c9b793c-e74d-4754-a2c0-901e73b26f1c")
 		)
 		(pin "TV_OUT" input
 			(at 154.94 92.71 90)
@@ -4775,26 +4588,6 @@
 			)
 			(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
 		)
-		(pin "+5v" input
-			(at 132.08 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
-		)
-		(pin "GPIO_VREF" input
-			(at 147.32 86.36 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4c8eb964-bdf4-44de-90e9-e2ab82dd5313")
-		)
 		(pin "TV_OUT" output
 			(at 154.94 86.36 270)
 			(effects
@@ -4842,26 +4635,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "5v" input
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bd872997-bb8b-48ce-a28a-5ddcbb6668b6")
-		)
-		(pin "3.3v" input
-			(at 113.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9c897559-ae83-4993-894f-224ac6f1c792")
 		)
 		(pin "USB2_P" bidirectional
 			(at 113.03 53.34 0)
@@ -5039,16 +4812,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3v" input
-			(at 114.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "291cb1e3-e944-436d-83ae-c5be515f6169")
-		)
 		(pin "RE" input
 			(at 114.3 100.33 0)
 			(effects
@@ -5157,16 +4920,6 @@
 				(justify left top)
 			)
 		)
-		(pin "5v" output
-			(at 193.04 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e015e0d2-f66f-44d6-a947-50ca24b32a0b")
-		)
 		(pin "SCL" input
 			(at 220.98 97.79 0)
 			(effects
@@ -5196,16 +4949,6 @@
 				(justify left)
 			)
 			(uuid "69762196-2c46-4f40-9924-7ae0772f71e7")
-		)
-		(pin "3.3v" input
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "59104d6a-2f7e-4776-8337-7b928c36a37d")
 		)
 		(instances
 			(project "CM4IOv5"
@@ -5294,16 +5037,6 @@
 				(justify right)
 			)
 			(uuid "2025677e-998e-4647-8cf6-048d0599bfc2")
-		)
-		(pin "3.3v" input
-			(at 114.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4db21981-ad30-4dfd-aba1-8790c4933b83")
 		)
 		(pin "Signal" input
 			(at 114.3 125.73 0)
@@ -5402,16 +5135,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "3.3v" input
-			(at 218.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d7f77fe2-c881-4812-bfd3-ed16511378db")
 		)
 		(pin "OE_PWM" input
 			(at 193.04 143.51 180)
