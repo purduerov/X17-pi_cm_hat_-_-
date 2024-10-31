@@ -3531,6 +3531,17 @@
 		(uuid "06ea8ca9-73b0-42bd-9b30-b39167cb0d9f")
 	)
 	(label "TB_B"
+		(at 203.2 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1984042e-bce6-4ce4-8f45-7cd2bf8875cf")
+	)
+	(label "TB_B"
 		(at 260.35 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3607,28 +3618,6 @@
 			(justify left bottom)
 		)
 		(uuid "591c9146-68e7-4612-840d-077724ccc2dc")
-	)
-	(label "D"
-		(at 133.35 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61d71520-d812-4145-9eaf-f97ced02c390")
-	)
-	(label "R"
-		(at 133.35 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "712cd4a9-423a-431e-852a-f6f1ffe3e1c3")
 	)
 	(label "GND2"
 		(at 203.2 60.96 180)
@@ -3718,6 +3707,17 @@
 		)
 		(uuid "cc2d759c-205e-44cf-89fc-8fbd687f26f9")
 	)
+	(label "TB_A"
+		(at 203.2 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf009eb-efcd-4dd3-ba09-8b02d683653b")
+	)
 	(label "D2"
 		(at 41.91 101.6 0)
 		(fields_autoplaced yes)
@@ -3783,30 +3783,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb61b541-bde5-4d2d-8278-7e11e81d46a7")
-	)
-	(hierarchical_label "TB_A"
-		(shape input)
-		(at 203.2 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00613ea9-1751-4706-8403-a8461c6253b8")
-	)
-	(hierarchical_label "TB_B"
-		(shape input)
-		(at 203.2 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08a88dde-bb98-4b21-a8cc-9f0918c52ed2")
 	)
 	(hierarchical_label "RX"
 		(shape input)

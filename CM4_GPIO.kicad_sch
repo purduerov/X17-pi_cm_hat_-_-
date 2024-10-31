@@ -10062,8 +10062,8 @@
 		(uuid "0014934b-426b-450c-a49f-4d3a01c16148")
 	)
 	(no_connect
-		(at 100.33 140.97)
-		(uuid "1095b982-e38b-43ec-b596-6fea61b36cb9")
+		(at 113.03 140.97)
+		(uuid "1d113147-00bb-4288-9504-0560bb93972b")
 	)
 	(no_connect
 		(at 176.53 67.31)
@@ -10100,6 +10100,10 @@
 	(no_connect
 		(at 140.97 69.85)
 		(uuid "49b7ea64-932d-4e33-9448-f3be1ec4c623")
+	)
+	(no_connect
+		(at 140.97 49.53)
+		(uuid "66ded54c-aa9a-4871-930d-79b42c9b31cd")
 	)
 	(no_connect
 		(at 176.53 31.75)
@@ -10610,6 +10614,16 @@
 			(type solid)
 		)
 		(uuid "2ff466f2-a10f-4d30-86d0-258970718dd1")
+	)
+	(wire
+		(pts
+			(xy 100.076 140.97) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331fe708-0b92-4be5-aa0b-fa16fe575184")
 	)
 	(wire
 		(pts
@@ -11923,16 +11937,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.146 67.31) (xy 39.116 67.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "a510e5e5-5ef7-4d6a-a501-65eee345df9c")
-	)
-	(wire
-		(pts
 			(xy 39.116 125.73) (xy 39.116 123.19)
 		)
 		(stroke
@@ -11970,6 +11974,16 @@
 			(type solid)
 		)
 		(uuid "a67f115f-343e-401e-a6fd-6c057cd578a5")
+	)
+	(wire
+		(pts
+			(xy 24.13 67.31) (xy 39.116 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a71a1dac-aa4f-4260-9e57-16a1fbc345fe")
 	)
 	(polyline
 		(pts
@@ -13846,17 +13860,6 @@
 		)
 		(uuid "5e5cd445-0654-433f-a688-b9a23b9e5558")
 	)
-	(label "GPIO9"
-		(at 147.32 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ee97714-8ad8-47a4-bd70-3ebc8406c7b5")
-	)
 	(label "TRD0_P"
 		(at 227.33 64.77 180)
 		(fields_autoplaced yes)
@@ -14517,7 +14520,7 @@
 		)
 		(uuid "d7208a74-6fe9-46b0-b74b-3a9c1ced3fc4")
 	)
-	(label "GPIO9"
+	(label "NRST2"
 		(at 31.496 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14771,6 +14774,18 @@
 			(justify left)
 		)
 		(uuid "09986a87-49c2-4491-b1b1-87dfad52ab95")
+	)
+	(hierarchical_label "NRST2"
+		(shape output)
+		(at 24.13 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e073e46-5ca7-4f2f-a92c-0db1c1ae95e5")
 	)
 	(hierarchical_label "ID_SC"
 		(shape output)
