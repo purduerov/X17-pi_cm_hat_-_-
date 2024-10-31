@@ -34,4 +34,6 @@
   (lib (name "LP2985A-50DBVR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/LP2985A_50DBVR/LP2985A-50DBVR.kicad_sym")(options "")(descr ""))
   (lib (name "ISO3086T")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ul_ISO3086TDW/KiCADv6/2024-10-26_17-12-40.kicad_sym")(options "")(descr ""))
   (lib (name "DF11_10DP_2DSA")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DF11_10DP_2DSA_24_/KiCADv6/2024-10-28_01-02-18.kicad_sym")(options "")(descr ""))
+  (lib (name "302_S101")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/302_S101/KiCADv6/2024-10-31_01-51-08.kicad_sym")(options "")(descr ""))
+  (lib (name "430450612")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/430450612/KiCADv6/2024-10-31_02-03-01.kicad_sym")(options "")(descr ""))
 )

@@ -10062,6 +10062,10 @@
 		(uuid "0014934b-426b-450c-a49f-4d3a01c16148")
 	)
 	(no_connect
+		(at 100.33 140.97)
+		(uuid "1095b982-e38b-43ec-b596-6fea61b36cb9")
+	)
+	(no_connect
 		(at 176.53 67.31)
 		(uuid "21db03e7-e263-4af5-b20e-21737839bf3e")
 	)
@@ -10104,6 +10108,10 @@
 	(no_connect
 		(at 140.97 26.67)
 		(uuid "6a69bb60-50e7-41a1-b917-4527c340224e")
+	)
+	(no_connect
+		(at 140.97 41.91)
+		(uuid "765f5e90-e434-4548-a861-96089e368e05")
 	)
 	(no_connect
 		(at 140.97 64.77)
@@ -11142,6 +11150,16 @@
 			(type solid)
 		)
 		(uuid "65d5c78a-4863-4a6e-8ee9-7f7694e5dd47")
+	)
+	(wire
+		(pts
+			(xy 24.13 74.93) (xy 39.116 74.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "67c7c5df-24eb-4e3b-a0c1-ccdae472fb3c")
 	)
 	(wire
 		(pts
@@ -12362,16 +12380,6 @@
 			(type solid)
 		)
 		(uuid "c5500aa7-533e-4660-a458-6bb3014c7d4e")
-	)
-	(wire
-		(pts
-			(xy 25.146 74.93) (xy 39.116 74.93)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c5ec54f0-0d08-4954-a314-8acf9272ac84")
 	)
 	(wire
 		(pts
@@ -14047,7 +14055,7 @@
 		)
 		(uuid "7e97b323-0f13-4745-becc-fa60e39b31ab")
 	)
-	(label "GPIO22"
+	(label "TB_EN"
 		(at 32.766 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14387,17 +14395,6 @@
 			(justify right bottom)
 		)
 		(uuid "be9bd86b-4cd5-4bd2-a31b-b062107d2a54")
-	)
-	(label "GPIO22"
-		(at 148.59 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c034fa22-c359-4a30-b345-2b159807ba6c")
 	)
 	(label "ETH_LEDG"
 		(at 102.87 39.37 0)
@@ -14894,6 +14891,18 @@
 			(justify left)
 		)
 		(uuid "993905a4-32e3-4b04-ba2d-4b2279f8e33b")
+	)
+	(hierarchical_label "TB_EN"
+		(shape output)
+		(at 24.13 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "997bd5b6-c5b6-4d6a-9604-fbf8e6d9498d")
 	)
 	(hierarchical_label "Rst"
 		(shape output)
