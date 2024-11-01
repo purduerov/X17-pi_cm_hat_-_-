@@ -3750,17 +3750,6 @@
 		)
 		(uuid "77d1268f-73d8-4618-a190-8085dc91c9c8")
 	)
-	(label "GND1"
-		(at 133.35 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8732909c-9eee-47e4-be8c-298b74a7d633")
-	)
 	(label "A"
 		(at 260.35 39.37 0)
 		(fields_autoplaced yes)
