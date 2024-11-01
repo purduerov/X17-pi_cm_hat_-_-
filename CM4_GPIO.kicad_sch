@@ -14547,7 +14547,7 @@
 		)
 		(uuid "a1df41ee-57e8-4cf8-a863-aa2ac7fada82")
 	)
-	(label "+3.3v"
+	(label "+3.3V"
 		(at 273.685 148.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -20268,7 +20268,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45071662-bbf7-4819-9dce-bdfc4f503ea9")
 		(property "Reference" "#PWR0135"
 			(at 15.24 127 0)
