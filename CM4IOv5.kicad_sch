@@ -1911,10 +1911,6 @@
 		(color 0 0 0 0)
 		(uuid "dac4ebcf-477d-4ba1-b693-abe2ea89e87c")
 	)
-	(no_connect
-		(at 168.91 151.13)
-		(uuid "2eb8ee7c-9e35-417e-a755-3e88900b55db")
-	)
 	(wire
 		(pts
 			(xy 218.44 144.78) (xy 224.79 144.78)
@@ -4522,18 +4518,8 @@
 			)
 			(uuid "a3e4f0ae-9f86-49e9-b386-ed8b42e012fb")
 		)
-		(pin "nEXTRST" output
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "efeac2a2-7682-4dc7-83ee-f6f1b23da506")
-		)
 		(pin "GLOBAL_EN" input
-			(at 168.91 151.13 0)
+			(at 168.91 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
