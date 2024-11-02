@@ -11493,16 +11493,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.116 128.27) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "55cd752b-c945-4ee3-943d-9a764cf13c98")
-	)
-	(wire
-		(pts
 			(xy 173.99 135.89) (xy 173.99 138.43)
 		)
 		(stroke
@@ -12120,6 +12110,16 @@
 			(type solid)
 		)
 		(uuid "890d9893-7e60-484a-abe1-7afea6fa8e4b")
+	)
+	(wire
+		(pts
+			(xy 39.116 128.27) (xy 39.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "891d71cb-890b-4e79-95b2-2515c42d387a")
 	)
 	(wire
 		(pts
