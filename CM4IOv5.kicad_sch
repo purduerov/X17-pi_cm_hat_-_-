@@ -3653,7 +3653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 189.23 126.238 90)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 193.04 129.8448 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_430450612_MOL"
+		(property "Footprint" "RS485-Header:CON_430450212_MOL"
 			(at 250.19 49.53 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1301.9314.24_SCH"
+		(property "Footprint" "1301_9314_24:1301.9314.24_SCH"
 			(at 220.98 127 0)
 			(effects
 				(font

@@ -4226,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_430450212_MOL"
+		(property "Footprint" "RS485-Header:CON_430450212_MOL"
 			(at 259.08 41.91 0)
 			(effects
 				(font
@@ -4298,7 +4298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 110.49 0)
 			(effects
 				(font
@@ -4769,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.9 98.298 90)
 			(effects
 				(font
@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 118.618 90)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.9 94.488 90)
 			(effects
 				(font
@@ -5103,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 122.428 90)
 			(effects
 				(font
@@ -5237,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW16"
+		(property "Footprint" "ISO3086TDW:DW16"
 			(at 138.43 43.18 0)
 			(effects
 				(font
@@ -5549,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.1652 43.18 0)
 			(effects
 				(font
@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.91 108.2548 0)
 			(effects
 				(font
@@ -5950,7 +5950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 214.3252 43.18 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON_430450212_MOL"
+		(property "Footprint" "RS485-Header:CON_430450212_MOL"
 			(at 259.08 58.42 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LP2985A-50DBVR:SOT95P280X145-5N"
+		(property "Footprint" "LP2985A_50DBVR:SOT95P280X145-5N"
 			(at 149.86 110.49 0)
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 119.38 0)
 			(effects
 				(font
@@ -6636,7 +6636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 79.7052 110.49 0)
 			(effects
 				(font
@@ -7035,7 +7035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.6752 44.45 0)
 			(effects
 				(font
