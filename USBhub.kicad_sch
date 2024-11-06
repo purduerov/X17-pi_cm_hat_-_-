@@ -4260,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABLS-12.000MHZ-B2-T:XTAL_ABLS-12.000MHZ-B2-T"
+		(property "Footprint" "ABLS_12_000MHZ_B2_T:XTAL_ABLS-12.000MHZ-B2-T"
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "24LC02B-I_SN:SOIC127P600X175-8N"
+		(property "Footprint" "24LC02B_I_SN:SOIC127P600X175-8N"
 			(at 210.82 62.23 0)
 			(effects
 				(font
