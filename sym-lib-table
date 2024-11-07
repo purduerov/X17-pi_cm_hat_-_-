@@ -38,4 +38,6 @@
   (lib (name "430450612")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/430450612/KiCADv6/2024-10-31_02-03-01.kicad_sym")(options "")(descr ""))
   (lib (name "2N7002")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/2N7002/2N7002.kicad_sym")(options "")(descr ""))
   (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/BME280/KiCADv6/2024-11-06_02-29-03.kicad_sym")(options "")(descr ""))
+  (lib (name "ISOW1412BDFMR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ISOW1412BDFMR/ISOW1412BDFMR.kicad_sym")(options "")(descr ""))
+  (lib (name "ISOW1432BDFMR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ISOW1432BDFMR/ISOW1432BDFMR.kicad_sym")(options "")(descr ""))
 )
