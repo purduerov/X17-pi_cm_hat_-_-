@@ -4708,6 +4708,36 @@
 			)
 			(uuid "b383aa0f-a2f2-418e-87b2-bb88d422d0e1")
 		)
+		(pin "TX_TB" input
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b914f7a1-afaf-4fa0-ab6a-03ce71c362ee")
+		)
+		(pin "RX_TB" input
+			(at 114.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "379225cc-36c6-4d21-bda6-85cd52ef3748")
+		)
+		(pin "ISO_FLT" input
+			(at 93.98 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81a99cc1-2372-47b2-ad4f-8b66946a443d")
+		)
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
