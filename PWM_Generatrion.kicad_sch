@@ -2324,7 +2324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_2X5_UF_DF11_HIR"
+		(property "Footprint" "DF11_10DP_2DSA_24:CON10_2X5_UF_DF11_HIR"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -2420,7 +2420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON10_2X5_UF_DF11_HIR"
+		(property "Footprint" "DF11_10DP_2DSA_24:CON10_2X5_UF_DF11_HIR"
 			(at 133.35 35.56 0)
 			(effects
 				(font

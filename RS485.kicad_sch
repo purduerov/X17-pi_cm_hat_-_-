@@ -3828,9 +3828,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "02e53088-abc5-4028-ab65-9906ab6ffaf4")
-		(property "Reference" "FB2"
-			(at 30.48 137.414 90)
+		(fields_autoplaced yes)
+		(uuid "0115fc7a-8122-49af-a90f-202165023b96")
+		(property "Reference" "FB1"
+			(at 30.4292 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,14 +3839,14 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 34.036 139.446 90)
+			(at 30.4292 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CM4IO:L_Bourns_SRN6045TA"
 			(at 30.48 145.288 90)
 			(effects
 				(font
@@ -3872,16 +3873,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "55a38e16-71b7-415d-8d3d-235fd3096452")
-		)
 		(pin "2"
-			(uuid "ccc57f44-9ea4-4892-99e6-13b89076d42d")
+			(uuid "728b7163-0c2f-45b5-b4ee-f8ae5daafde1")
+		)
+		(pin "1"
+			(uuid "a5eb56b1-ffc9-40e4-9a71-fee6a506da88")
 		)
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -3985,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 42.8752 151.13 0)
 			(effects
 				(font
@@ -4088,6 +4089,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 143.51 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c24b21-f6c1-4d84-a1a5-118bc05ddb71")
+		(property "Reference" "FB4"
+			(at 141.478 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 141.478 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM4IO:L_Bourns_SRN6045TA"
+			(at 143.51 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd322662-00bf-4b0e-908a-dccb5f8d4b4b")
+		)
+		(pin "1"
+			(uuid "24ed864c-fdc5-4e9d-8f3b-420db307e93e")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -4221,6 +4289,74 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 52.07 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e4fed04-cc83-4baa-9160-85da1f39f8e2")
+		(property "Reference" "FB6"
+			(at 52.0192 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 52.0192 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM4IO:L_Bourns_SRN6045TA"
+			(at 52.07 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df4c5c7e-088a-43be-aaed-7125e311af73")
+		)
+		(pin "1"
+			(uuid "969d59f1-c2bb-437b-bd8f-21cb37bf3264")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
+					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -4496,73 +4632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 143.51 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "439dcb7b-7ae0-4b03-8f9c-4c750bebee57")
-		(property "Reference" "FB5"
-			(at 138.684 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 137.668 153.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 143.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ef7cfcd-3e1c-45e7-bc8f-f966c9b55952")
-		)
-		(pin "2"
-			(uuid "83c49329-f453-49bc-a45e-5591b472912c")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
-					(reference "FB5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 163.83 182.88 180)
 		(unit 1)
@@ -4655,7 +4724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.372 102.87 90)
 			(effects
 				(font
@@ -4824,6 +4893,144 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 143.51 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b36baa0-2caf-4422-b1d7-25ee4045f592")
+		(property "Reference" "FB3"
+			(at 143.4592 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 143.4592 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM4IO:L_Bourns_SRN6045TA"
+			(at 143.51 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ada0482-fec8-448d-a269-15b7a757a99f")
+		)
+		(pin "1"
+			(uuid "7f5a263b-dc43-4a59-8a15-175140dbe584")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 41.91 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7546ebb0-ae51-49d3-84c9-86f3769dfa4a")
+		(property "Reference" "FB2"
+			(at 45.72 157.5307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 45.72 160.0707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CM4IO:L_Bourns_SRN6045TA"
+			(at 43.688 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65d10fe2-d9c5-42d7-a2e1-61554c8562c0")
+		)
+		(pin "1"
+			(uuid "b81a763f-7aaf-49b9-abca-f8a72879b22f")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -5094,140 +5301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 41.91 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8037245f-f721-4dc4-9aad-83b7c3062e2c")
-		(property "Reference" "FB3"
-			(at 48.006 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 49.022 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.132 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 41.91 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc1dc223-cff0-41c7-bbd7-f576bd790192")
-		)
-		(pin "2"
-			(uuid "653d3998-db92-4a09-8295-232cc9ee8b20")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 143.51 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "815de88b-647b-4cf1-bffe-e4902e8a16db")
-		(property "Reference" "FB4"
-			(at 144.018 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 143.002 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 143.51 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01ab8b1c-00fd-48a3-aef2-ecc8b20b1407")
-		)
-		(pin "2"
-			(uuid "3fcc9727-416a-4fd7-9dec-d06691ca6be4")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
-					(reference "FB4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 163.83 182.88 0)
 		(unit 1)
@@ -5320,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 53.0352 151.13 0)
 			(effects
 				(font
@@ -5460,7 +5533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 63.1952 151.13 0)
 			(effects
 				(font
@@ -5596,7 +5669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.4652 99.06 0)
 			(effects
 				(font
@@ -5744,7 +5817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.4252 104.14 0)
 			(effects
 				(font
@@ -6255,7 +6328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 118.11 90)
 			(effects
 				(font
@@ -6656,7 +6729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 149.86 0)
 			(effects
 				(font
@@ -6693,73 +6766,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 52.07 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d271df83-fee8-44a5-9516-46a2908bb1c8")
-		(property "Reference" "FB1"
-			(at 52.07 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 55.626 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 52.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a6b628f-4152-4878-9cc7-f2eb28e340be")
-		)
-		(pin "2"
-			(uuid "78d4097a-bf82-43b0-8281-9aeef61ae422")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/92056ffc-70e5-4b84-9d1d-3f511482facd"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -6925,7 +6931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 149.86 0)
 			(effects
 				(font
@@ -7131,7 +7137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 149.86 0)
 			(effects
 				(font
@@ -7267,7 +7273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.9952 104.14 0)
 			(effects
 				(font

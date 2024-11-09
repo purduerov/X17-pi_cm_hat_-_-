@@ -10843,6 +10843,26 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 46.99) (xy 39.116 46.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "08ce33bf-b4ea-4bc2-bd06-b4b9f65a735a")
+	)
+	(wire
+		(pts
+			(xy 24.13 52.07) (xy 39.116 52.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "094eae85-2177-4fdd-9db7-1f9ca9a6c5e0")
+	)
+	(wire
+		(pts
 			(xy 100.076 21.59) (xy 113.03 21.59)
 		)
 		(stroke
@@ -11173,16 +11193,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.146 59.69) (xy 39.116 59.69)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2ff466f2-a10f-4d30-86d0-258970718dd1")
-	)
-	(wire
-		(pts
 			(xy 100.076 140.97) (xy 113.03 140.97)
 		)
 		(stroke
@@ -11293,6 +11303,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 59.69) (xy 39.116 59.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "404bc707-cf22-415f-a00f-994b6b573855")
+	)
+	(wire
+		(pts
 			(xy 100.076 107.95) (xy 101.346 107.95)
 		)
 		(stroke
@@ -11380,6 +11400,16 @@
 			(type solid)
 		)
 		(uuid "4be9bcff-98b2-46ca-809c-98605f99802f")
+	)
+	(wire
+		(pts
+			(xy 24.13 87.63) (xy 39.116 87.63)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4c5c2f5f-0705-4957-a34d-4c249e62e64c")
 	)
 	(wire
 		(pts
@@ -11520,16 +11550,6 @@
 			(type solid)
 		)
 		(uuid "589039ca-2779-4520-b3e8-3f7f6261d041")
-	)
-	(wire
-		(pts
-			(xy 25.146 46.99) (xy 39.116 46.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5985685d-e43d-436c-af13-33e3e86848ac")
 	)
 	(wire
 		(pts
@@ -11923,6 +11943,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 49.53) (xy 39.116 49.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "73ff15ce-11e4-4dd6-ad5f-b60846f13ff2")
+	)
+	(wire
+		(pts
 			(xy 114.046 90.17) (xy 100.076 90.17)
 		)
 		(stroke
@@ -11963,13 +11993,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.146 52.07) (xy 39.116 52.07)
+			(xy 24.13 85.09) (xy 39.116 85.09)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(uuid "789426ba-1b00-402b-9dd7-4cc463c090a5")
+		(uuid "76912db4-4698-4174-913e-942720a51c7a")
 	)
 	(wire
 		(pts
@@ -12190,26 +12220,6 @@
 			(type solid)
 		)
 		(uuid "8b798044-1ece-4731-8e5b-91c47e4f5d0a")
-	)
-	(wire
-		(pts
-			(xy 25.146 85.09) (xy 39.116 85.09)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8bb0a05e-e024-4c96-8062-b72bb8f6b3b6")
-	)
-	(wire
-		(pts
-			(xy 25.146 49.53) (xy 39.116 49.53)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8bbd3c40-a2e0-418c-842d-ed1052422596")
 	)
 	(wire
 		(pts
@@ -12913,6 +12923,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 72.39) (xy 39.116 72.39)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bfa08893-4ced-4db4-a82a-a1c98d0b410f")
+	)
+	(wire
+		(pts
 			(xy 24.13 77.47) (xy 39.116 77.47)
 		)
 		(stroke
@@ -13403,16 +13423,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.146 87.63) (xy 39.116 87.63)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "eaf7bad2-f505-4235-ac62-4996b9281847")
-	)
-	(wire
-		(pts
 			(xy 114.046 95.25) (xy 100.076 95.25)
 		)
 		(stroke
@@ -13550,16 +13560,6 @@
 			(type solid)
 		)
 		(uuid "f33894b1-3004-4ac0-b141-e83279084e93")
-	)
-	(wire
-		(pts
-			(xy 25.146 72.39) (xy 39.116 72.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f3de2775-f0cf-4183-8569-58c2de09dee1")
 	)
 	(wire
 		(pts
@@ -13996,7 +13996,7 @@
 		(uuid "18282a1a-7012-465b-b257-9994d1176f23")
 	)
 	(label "TRD1_P"
-		(at 30.226 21.59 180)
+		(at 30.48 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14446,6 +14446,17 @@
 		)
 		(uuid "6884c1b4-ba74-400a-b15a-2bf546c04e73")
 	)
+	(label "TX_TB"
+		(at 24.13 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a1263a7-4525-433d-8ac1-93a596186dd6")
+	)
 	(label "TRD0_P"
 		(at 245.11 21.59 180)
 		(fields_autoplaced yes)
@@ -14622,17 +14633,6 @@
 		)
 		(uuid "88d47af8-f385-41c3-a158-4c2020d5a72a")
 	)
-	(label "GPIO4"
-		(at 31.496 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8baf31fa-31f2-4e84-ad86-348df774f617")
-	)
 	(label "TR2_TAP"
 		(at 221.9198 90.17 180)
 		(fields_autoplaced yes)
@@ -14654,17 +14654,6 @@
 			(justify left bottom)
 		)
 		(uuid "917dba0e-1b1e-4fc1-b97b-7105df526305")
-	)
-	(label "GPIO5"
-		(at 31.496 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9180d7c2-ce82-4cd5-b2d5-d944586fb090")
 	)
 	(label "GPIO10"
 		(at 148.59 46.99 180)
@@ -14809,6 +14798,17 @@
 		)
 		(uuid "aed6fd45-9008-49c0-8589-6686d15e36cc")
 	)
+	(label "RX_TB"
+		(at 24.13 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afd205ad-a3e8-476e-9d7a-c3e193e654b2")
+	)
 	(label "TRD3_P"
 		(at 245.11 49.53 180)
 		(fields_autoplaced yes)
@@ -14897,6 +14897,17 @@
 		)
 		(uuid "c15462ce-d862-47c0-8d02-faaa43912ad5")
 	)
+	(label "ISO_FLT"
+		(at 21.59 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c64a448e-2e4f-43fb-98ff-ab74bfe7e72f")
+	)
 	(label "ETH_LEDY"
 		(at 102.87 36.83 0)
 		(fields_autoplaced yes)
@@ -14920,7 +14931,7 @@
 		(uuid "d1dfa0d9-6085-48b0-8c67-e7d0c2f5ffb4")
 	)
 	(label "GPIO3"
-		(at 31.496 87.63 180)
+		(at 24.13 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14931,7 +14942,7 @@
 		(uuid "d2eb360b-2bc4-4408-a8b3-07959277e262")
 	)
 	(label "XRSTJ"
-		(at 31.496 90.17 180)
+		(at 30.48 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15094,17 +15105,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1926e02-3170-4727-853e-1c4f3bbf137d")
-	)
-	(label "GPIO10"
-		(at 32.766 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f75ad864-f096-4907-b31d-1a5733db4331")
 	)
 	(label "OE_PWM"
 		(at 110.236 49.53 180)
@@ -15351,6 +15351,18 @@
 		)
 		(uuid "9c5ee6a0-ad64-45e3-88fc-b95ca1c7e8a8")
 	)
+	(hierarchical_label "TX_TB"
+		(shape output)
+		(at 24.13 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e4cbfb2-4a20-485e-b5a4-049bdd76418c")
+	)
 	(hierarchical_label "TV_OUT"
 		(shape input)
 		(at 55.88 177.8 180)
@@ -15377,7 +15389,7 @@
 	)
 	(hierarchical_label "Int1"
 		(shape output)
-		(at 25.4 49.53 180)
+		(at 24.13 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15386,6 +15398,18 @@
 			(justify right)
 		)
 		(uuid "c776d987-75a4-4631-bba5-43fa81aa7bf2")
+	)
+	(hierarchical_label "RX_TB"
+		(shape output)
+		(at 22.86 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c99dfa06-522c-4554-96ba-b4b30f76a0ca")
 	)
 	(hierarchical_label "SCL0"
 		(shape output)
@@ -15449,7 +15473,7 @@
 	)
 	(hierarchical_label "Boot1"
 		(shape output)
-		(at 25.4 46.99 180)
+		(at 24.13 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15461,7 +15485,7 @@
 	)
 	(hierarchical_label "IMU_Rst1"
 		(shape output)
-		(at 25.4 52.07 180)
+		(at 24.13 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15482,6 +15506,18 @@
 			(justify left)
 		)
 		(uuid "f795f66f-f0d2-4543-a2ab-05d864b6d03f")
+	)
+	(hierarchical_label "ISO_FLT"
+		(shape output)
+		(at 21.59 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9e713a3-95c6-4149-8fe3-5dbbd5288a0e")
 	)
 	(symbol
 		(lib_id "CM4IO:74LVC1G07_copy")

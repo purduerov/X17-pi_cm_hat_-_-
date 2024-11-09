@@ -1947,6 +1947,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 115.57) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9507d7-ce45-482a-9208-f78dae2dc118")
+	)
+	(wire
+		(pts
 			(xy 246.38 59.69) (xy 250.19 59.69)
 		)
 		(stroke
@@ -2007,6 +2017,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 110.49) (xy 93.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9202fca0-9f21-4085-b954-f8ba480b74eb")
+	)
+	(wire
+		(pts
 			(xy 114.3 100.33) (xy 132.08 100.33)
 		)
 		(stroke
@@ -2024,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "995b6a03-d8cc-43b3-af8b-60f3d0b6f33b")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c700517-6b04-40f0-b365-7b867a2de21e")
 	)
 	(wire
 		(pts
@@ -2114,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "c61955fb-dc99-4562-a0fe-19f157b14b52")
+	)
+	(wire
+		(pts
+			(xy 114.3 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8955f57-c22f-4fc6-ac6f-751e0bed6ebf")
 	)
 	(wire
 		(pts
@@ -2564,6 +2604,17 @@
 		)
 		(uuid "731f282b-d126-419a-97d7-fece37e67700")
 	)
+	(label "ISO_FLT"
+		(at 125.73 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fd1134a-021b-43c3-b912-a1e50b0ce899")
+	)
 	(label "n_reset"
 		(at 173.99 146.05 0)
 		(fields_autoplaced yes)
@@ -2618,6 +2669,17 @@
 			(justify right bottom)
 		)
 		(uuid "a2693b8e-5a7f-47d9-8b90-55e3912902d4")
+	)
+	(label "ISO_FLT"
+		(at 86.36 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b30ee455-c847-429f-90a8-ded439b6cb26")
 	)
 	(label "Leak"
 		(at 83.82 101.6 180)
@@ -4335,6 +4397,36 @@
 				(justify right)
 			)
 			(uuid "35d10d71-e532-456d-8ad6-4cd796768702")
+		)
+		(pin "ISO_FLT" output
+			(at 132.08 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4986d3b4-292f-49ba-a7d3-70e61340e970")
+		)
+		(pin "RX_TB" output
+			(at 132.08 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4e68dff-8af1-486b-bd47-c2c4089fc80f")
+		)
+		(pin "TX_TB" output
+			(at 132.08 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6410a7db-33f5-4cc9-adfb-87e988ff03c4")
 		)
 		(instances
 			(project "CM4IOv5"

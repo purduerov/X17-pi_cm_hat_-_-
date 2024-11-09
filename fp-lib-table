@@ -22,4 +22,6 @@
   (lib (name "AZ1117IH_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/AZ1117IH_3_3TRG1")(options "")(descr ""))
   (lib (name "PCA9685PW_118")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/PCA9685PW_118")(options "")(descr ""))
   (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ABLS_12_000MHZ_B2_T")(options "")(descr ""))
+  (lib (name "DF11_10DP_2DSA_24")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DF11_10DP_2DSA_24_/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ISOW1432BDFMR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ISOW1432BDFMR")(options "")(descr ""))
 )
