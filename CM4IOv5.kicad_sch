@@ -1707,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 93.98) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01815c05-ba21-4ef1-9aac-07c7dabd41e5")
+	)
+	(wire
+		(pts
 			(xy 114.3 143.51) (xy 132.08 143.51)
 		)
 		(stroke
@@ -2034,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "95dcf2ec-10d8-4623-a5f4-5a8cb0e4432e")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98503314-daf1-45a3-8468-279767aaf974")
 	)
 	(wire
 		(pts
@@ -2604,6 +2624,17 @@
 		)
 		(uuid "731f282b-d126-419a-97d7-fece37e67700")
 	)
+	(label "Fan"
+		(at 83.82 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c5a5a37-5d61-4f26-ad9e-93032365f917")
+	)
 	(label "ISO_FLT"
 		(at 125.73 115.57 0)
 		(fields_autoplaced yes)
@@ -2691,6 +2722,17 @@
 			(justify right bottom)
 		)
 		(uuid "ba5c18a8-5c61-4bf0-ab78-4496b6d44013")
+	)
+	(label "Fan"
+		(at 125.73 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbf23a04-7ae9-4de2-80d9-9a4a4b3c4578")
 	)
 	(label "XRSTJ"
 		(at 119.38 58.42 180)
@@ -4428,6 +4470,16 @@
 			)
 			(uuid "6410a7db-33f5-4cc9-adfb-87e988ff03c4")
 		)
+		(pin "Fan" output
+			(at 132.08 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8154a23c-2ebb-413d-86e2-e3a40e1ea2e6")
+		)
 		(instances
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4691,6 +4743,16 @@
 				(justify right)
 			)
 			(uuid "6e367ec4-6f1b-41b9-9780-baccb063eb70")
+		)
+		(pin "Fan" input
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3621fc8-e580-4e23-9854-3b43146552c3")
 		)
 		(instances
 			(project "CM4IOv5"
