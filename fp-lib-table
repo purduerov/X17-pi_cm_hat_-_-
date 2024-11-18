@@ -24,4 +24,6 @@
   (lib (name "ABLS_12_000MHZ_B2_T")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ABLS_12_000MHZ_B2_T")(options "")(descr ""))
   (lib (name "DF11_10DP_2DSA_24")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DF11_10DP_2DSA_24_/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ISOW1432BDFMR")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/ISOW1432BDFMR")(options "")(descr ""))
+  (lib (name "DF13_4P_1_25DSA_25")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DF13_4P_1_25DSA_25_/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "BM04B_GHS_TBT")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/BM04B_GHS_TBT (1)/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
