@@ -3894,7 +3894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RS485-Header:CON_430450212_MOL"
+		(property "Footprint" "430450612:CON_430450612_MOL"
 			(at 250.19 49.53 0)
 			(effects
 				(font

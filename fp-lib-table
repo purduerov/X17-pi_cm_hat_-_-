@@ -27,4 +27,5 @@
   (lib (name "DF13_4P_1_25DSA_25")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/DF13_4P_1_25DSA_25_/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "BM04B_GHS_TBT")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/BM04B_GHS_TBT (1)/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "B3B_XH_A")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/B3B_XH_A/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "430450612")(type "KiCad")(uri "${KIPRJMOD}/CM4IO-Library/430450612/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
