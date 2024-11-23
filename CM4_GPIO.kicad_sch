@@ -9703,16 +9703,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 45.72) (xy 152.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1737110a-8dbc-445b-8651-e70d4cb18f68")
-	)
-	(wire
-		(pts
 			(xy 27.94 172.72) (xy 27.94 177.8)
 		)
 		(stroke
@@ -13141,17 +13131,6 @@
 			(justify right bottom)
 		)
 		(uuid "be9bd86b-4cd5-4bd2-a31b-b062107d2a54")
-	)
-	(label "GPIO7"
-		(at 146.05 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c08c71a2-e918-4a3c-85e9-811d4c456f38")
 	)
 	(label "ETH_LEDG"
 		(at 102.87 39.37 0)
@@ -19515,73 +19494,6 @@
 			(project "CM4IOv5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
 					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 157.48 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "979eb558-156f-4877-87ef-9352baee6f6f")
-		(property "Reference" "J41"
-			(at 160.02 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 160.02 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 157.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f07aa0af-7683-42b7-9b31-39909fdcdc2a")
-		)
-		(instances
-			(project "CM4IOv5"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
-					(reference "J41")
 					(unit 1)
 				)
 			)
