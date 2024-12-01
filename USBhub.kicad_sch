@@ -3521,6 +3521,16 @@
 		)
 		(uuid "75603d23-05d7-478d-a398-ddecdec3d1a0")
 	)
+	(text "Do I need 1k pull up?\n"
+		(exclude_from_sim no)
+		(at 186.182 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9932aae-dade-4862-b819-a69ad6b3dc4a")
+	)
 	(text "Activity Leds"
 		(exclude_from_sim no)
 		(at 32.004 110.49 0)
