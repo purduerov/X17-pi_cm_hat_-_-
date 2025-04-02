@@ -3584,7 +3584,7 @@
 		)
 		(uuid "0599bc4e-1bb1-4c93-8ea4-d8be7b868876")
 	)
-	(label "DP1"
+	(label "D1+"
 		(at 124.46 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3595,7 +3595,7 @@
 		)
 		(uuid "0e401c97-4c62-4332-a780-7f0eb712dc42")
 	)
-	(label "DP3"
+	(label "D3+"
 		(at 74.93 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3606,7 +3606,7 @@
 		)
 		(uuid "1264272a-7c53-4427-87a2-ad1ebf66070d")
 	)
-	(label "DM3"
+	(label "D3-"
 		(at 74.93 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3650,7 +3650,7 @@
 		)
 		(uuid "18e651cb-436b-4ab5-a7bf-4abf3092f94b")
 	)
-	(label "DP1"
+	(label "D1+"
 		(at 74.93 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3683,7 +3683,7 @@
 		)
 		(uuid "22e1dd21-d9bb-4845-a752-baa17e100d86")
 	)
-	(label "DP4"
+	(label "D4+"
 		(at 124.46 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3705,7 +3705,7 @@
 		)
 		(uuid "3a65b523-3da8-4ad2-97b8-632db65a667c")
 	)
-	(label "DM4"
+	(label "D4-"
 		(at 124.46 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3716,7 +3716,7 @@
 		)
 		(uuid "3cdc54a8-dce9-4d60-8ee4-a4f3f69c55a7")
 	)
-	(label "DP2"
+	(label "D2+"
 		(at 124.46 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3749,7 +3749,7 @@
 		)
 		(uuid "60a7a4b0-84c6-4b9b-bc13-c7cf4c8db235")
 	)
-	(label "DM1"
+	(label "D1-"
 		(at 74.93 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3782,7 +3782,7 @@
 		)
 		(uuid "6e8cbec1-854b-4e58-b917-221010545215")
 	)
-	(label "DM1"
+	(label "D1-"
 		(at 124.46 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3793,7 +3793,7 @@
 		)
 		(uuid "6f864d44-a0de-4b9c-b825-6aa4fedb5601")
 	)
-	(label "DM2"
+	(label "D2-"
 		(at 124.46 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3804,7 +3804,7 @@
 		)
 		(uuid "7ccab917-a49d-4d55-aea3-9329415e0aef")
 	)
-	(label "DP4"
+	(label "D4+"
 		(at 74.93 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3827,7 +3827,7 @@
 		)
 		(uuid "98fa0464-078e-4da0-a825-3a08e6c46bc2")
 	)
-	(label "DM4"
+	(label "D4-"
 		(at 74.93 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3861,7 +3861,7 @@
 		)
 		(uuid "ba1ea77c-2e3c-431b-b3e4-3daacebf6fe3")
 	)
-	(label "DP2"
+	(label "D2+"
 		(at 74.93 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3872,7 +3872,7 @@
 		)
 		(uuid "c7e91c3e-c907-47c1-afa4-6d5c2a037da6")
 	)
-	(label "DM2"
+	(label "D2-"
 		(at 74.93 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3883,7 +3883,7 @@
 		)
 		(uuid "cd2ddf6e-c118-4147-a50b-a0aa8a2648ef")
 	)
-	(label "DM3"
+	(label "D3-"
 		(at 124.46 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3916,7 +3916,7 @@
 		)
 		(uuid "d164b50c-5339-43bc-bd95-8c04728a4347")
 	)
-	(label "DP3"
+	(label "D3+"
 		(at 124.46 71.12 0)
 		(fields_autoplaced yes)
 		(effects
